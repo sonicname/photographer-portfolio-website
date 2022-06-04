@@ -1,0 +1,30 @@
+.video {
+  position: relative;
+  max-height: 74.8rem;
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    border-radius: 100rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s linear;
+
+    img {
+      width: 2.8rem;
+      height: 2.8rem;
+    }
+  }
+
+  &:hover &__icon {
+    opacity: 1;
+    visibility: visible;
+  }
+}

@@ -18,6 +18,7 @@ img {
 body {
   font-size: 1.6rem;
   min-height: 100vh;
+  background-color: $lightWhite;
 }
 
 .container {
@@ -44,4 +45,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }

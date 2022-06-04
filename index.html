@@ -11,7 +11,7 @@
     <title>Photographer Portfolio Website - Emma Watson</title>
   </head>
   <body>
-    <section class="hero">
+    <header class="hero">
       <div class="hero__container container">
         <nav class="navbar space-between">
           <div class="navbar__logo">
@@ -22,9 +22,9 @@
 
           <div class="navbar__links">
             <a href="#" class="navbar__link font-regular active">Home</a>
-            <a href="#" class="navbar__link font-regular">Portfolio</a>
-            <a href="#" class="navbar__link font-regular">Contact</a>
-            <a href="#" class="navbar__link font-regular">Reviews</a>
+            <a href="#portfolio" class="navbar__link font-regular">Portfolio</a>
+            <a href="#contact" class="navbar__link font-regular">Contact</a>
+            <a href="#rating" class="navbar__link font-regular">Reviews</a>
           </div>
         </nav>
 
@@ -53,8 +53,232 @@
           />
         </div>
       </div>
+    </header>
+
+    <section class="about">
+      <div class="about__container container space-between">
+        <div class="about__content">
+          <h2 class="about__introduce font-bold">Hey I'm Emma Watson</h2>
+
+          <div class="about__info font-regular column">
+            <p>
+              I document human stories with a camera. My only goal is to convert
+              your wedding day into images, that tell a story for generations to
+              come. That’s what it’s all about for me.
+            </p>
+            <p>
+              It’s not even so much about weddings, but about you and your story
+              on any given day. Wedding days are just perfect for that. So much
+              happening, so many great and little moments that tell their very
+              own story. So many emotions, friends and family.
+            </p>
+          </div>
+        </div>
+
+        <div class="about__img">
+          <img
+            class="about__img-first"
+            src="./assets/About_Image_1.png"
+            alt=""
+          />
+          <img
+            class="about__img-second"
+            src="./assets/About_Image_2.png"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
 
-    <section class="about"></section>
+    <section class="video">
+      <img class="img" src="./assets/Video_Thumbnail.png" alt="" />
+      <div class="video__icon">
+        <img src="./assets/Icon_Play.png" alt="" />
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio__container container space-between">
+        <div class="portfolio__column-first column">
+          <div class="portfolio__content column">
+            <h2 class="portfolio__heading font-bold">My latest project</h2>
+            <p class="portfolio__subtitle font-regular">
+              Let’s have a look on my latest photography and video graphy work.
+            </p>
+            <a class="portfolio__all font-bold" href="#">View All Work</a>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="./assets/Portfolio_Image_1.png" alt="" />
+            <h3 class="font-bold">Pet Dog Photography</h3>
+            <p class="font-regular">
+              Recently I did photography for a pet dog. I have enjoyed a lot
+              while taking the pictures of the dog.
+            </p>
+          </div>
+        </div>
+
+        <div class="portfolio__column-second column">
+          <div class="portfolio__img">
+            <img src="./assets/Portfolio_Image_2.png" alt="" />
+            <h3 class="font-bold">Enna’s Coffee Shop</h3>
+            <p class="font-regular">
+              Recently I did photography for a coffe shop . I have enjoyed a lot
+              while taking the pictures of the store.
+            </p>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="./assets/Portfolio_Image_3.png" alt="" />
+            <h3 class="font-bold">MR Digital Agency</h3>
+            <p class="font-regular">
+              Recently I did photography for a Digital Agency. I have enjoyed a
+              lot while taking the pictures of the them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rating" class="rating">
+      <div class="rating__container container column">
+        <h2 class="rating__title font-bold">
+          See what my happy clients are saying about me
+        </h2>
+        <div class="rating__content">
+          <p class="rating__review">
+            "As a professionally trained photographer and creative visual
+            artist, she did outstanding work. I am so glad that she did the
+            photography and video graphy in my wedding and my other social
+            engagement."
+          </p>
+          <div class="rating__author column">
+            <h3 class="rating__author-name font-bold">Brandon King</h3>
+            <p class="rating__author-job font-regular">Web Designer</p>
+          </div>
+
+          <div class="rating__btn">
+            <div class="rating__btn-back">
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 1L1 9L9 17"
+                  stroke="#EE7F00"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+
+            <div class="rating__btn-next">
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 1L9 9L1 17"
+                  stroke="#EE7F00"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="footer__container container">
+        <div class="footer__wrapper">
+          <div class="footer__content">
+            <h2 class="footer__heading font-bold">Let’s work together</h2>
+            <p class="footer__subtitle">
+              Let’s work together and do something better for your special
+              moment.
+            </p>
+            <a class="footer__work font-bold" href="#"> Let's Work </a>
+          </div>
+
+          <div class="footer__info">
+            <div class="footer__links column">
+              <a href="#">Home</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Contact</a>
+              <a href="#">Reviews</a>
+            </div>
+
+            <div class="footer__social column">
+              <img src="./assets/Logo_footer.png" alt="" />
+              <div class="footer__icons">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="30" height="30" fill="#2D1800" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M18 13.6553H15.6667V11.7932C15.6667 11.2792 16.0848 11.3276 16.6 11.3276H17.5333V9H15.6667C14.9241 9 14.2119 9.29428 13.6868 9.8181C13.1617 10.3419 12.8667 11.0524 12.8667 11.7932V13.6553H11V15.9829H12.8667V21.1037H15.6667V15.9829H17.0667L18 13.6553Z"
+                    fill="white"
+                  />
+                </svg>
+
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="30" height="30" fill="#2D1800" />
+                  <path
+                    d="M20 11.0129C19.5957 11.1997 19.0838 11.375 18.625 11.4333C19.0916 11.1448 19.8318 10.5437 20 10C19.5641 10.2671 18.7758 10.5523 18.2615 10.6555C17.8509 10.2016 17.2651 10 16.6161 10C15.3695 10 14.5 11.1013 14.5 12.3889V13.3445C12.6667 13.3445 10.8792 11.8887 9.76679 10.4778C9.56566 10.8334 9.46006 11.2389 9.46108 11.6517C9.46108 12.5208 10.227 13.4027 10.8333 13.8222C10.4635 13.8103 9.76313 13.516 9.45833 13.3445V13.3717C9.45833 14.5026 10.2196 15.2704 11.2513 15.4844C11.063 15.5384 10.8333 15.7334 9.94967 15.7334C10.2366 16.6579 11.679 17.1466 12.6667 17.1667C11.8939 17.7911 10.5162 18.1223 9.45833 18.1223C9.27546 18.1223 9.17646 18.1328 9 18.1113C9.99825 18.7706 11.3925 19.0778 12.6667 19.0778C16.8178 19.0778 19.0833 15.7725 19.0833 12.6899C19.0833 12.5886 19.0801 12.2494 19.0751 12.15C19.5187 11.8242 19.6984 11.483 20 11.0129Z"
+                    fill="white"
+                  />
+                </svg>
+
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="30" height="30" fill="#2D1800" />
+                  <path
+                    d="M11.4376 13.3437H9.15949V20.0729H11.4376V13.3437Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M11.0546 10.2034C10.8375 10.0708 10.5823 10 10.3213 10C10.1472 10 9.97474 10.0315 9.81393 10.0927C9.65312 10.154 9.50713 10.2437 9.38433 10.3567C9.26154 10.4698 9.16437 10.604 9.09841 10.7515C9.03246 10.8991 8.99902 11.0571 9.00002 11.2165C9.00152 11.4555 9.08029 11.6886 9.22639 11.8866C9.37248 12.0846 9.57936 12.2386 9.82093 12.3291C10.0625 12.4196 10.3279 12.4425 10.5837 12.3951C10.8395 12.3476 11.0743 12.2319 11.2583 12.0624C11.4423 11.893 11.5674 11.6775 11.6178 11.443C11.6682 11.2086 11.6416 10.9657 11.5413 10.7451C11.4411 10.5245 11.2717 10.336 11.0546 10.2034Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M15.0944 13.3434H12.8998L12.8923 20.0865H15.1704V16.7566C15.1704 15.8807 15.3526 15.0326 16.5372 15.0326C17.7219 15.0326 17.7219 16.0406 17.7219 16.8192V20.0726H20V16.3812C20 14.5669 19.5368 13.1765 17.2587 13.1765C16.8245 13.161 16.3938 13.2537 16.0126 13.4446C15.6315 13.6356 15.3141 13.9178 15.0944 14.261V13.3434Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="footer__copyright">
+          © webdesign.gdn 2022,All Rights Reserved
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

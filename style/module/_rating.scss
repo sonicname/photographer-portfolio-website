@@ -1,0 +1,106 @@
+.rating {
+  padding: 9.6rem 0;
+  background-color: $strongBrown;
+
+  &__title {
+    max-width: 57rem;
+    font-size: 4.2rem;
+    line-height: 5.2rem;
+    letter-spacing: -0.02rem;
+
+    color: $white;
+  }
+
+  &__content {
+    position: relative;
+
+    margin-top: 10.8rem;
+    max-width: 87rem;
+    margin-left: auto;
+  }
+
+  &__review {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+
+    color: $gray;
+  }
+
+  &__author {
+    margin-top: 3.8rem;
+    gap: 1rem 0;
+
+    &-name {
+      font-size: 2.2rem;
+      line-height: 2.8rem;
+      color: $white;
+    }
+
+    &-job {
+      line-height: 2rem;
+      color: $gray;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 0 3.2rem;
+
+    &-back {
+      padding: 1.4rem 1.8rem;
+      border: 1px solid $orange;
+      border-radius: 0.2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        width: 0.8rem;
+        height: 1.6rem;
+      }
+
+      &:hover {
+        background-color: $orange;
+
+        svg {
+          path {
+            stroke: $white;
+          }
+        }
+      }
+    }
+
+    &-next {
+      padding: 1.4rem 1.8rem;
+      border: 1px solid $orange;
+      border-radius: 0.2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        width: 0.8rem;
+        height: 1.6rem;
+      }
+
+      &:hover {
+        background-color: $orange;
+
+        svg {
+          path {
+            stroke: $white;
+          }
+        }
+      }
+    }
+  }
+}

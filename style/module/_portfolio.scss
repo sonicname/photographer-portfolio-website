@@ -1,0 +1,72 @@
+.portfolio {
+  padding: 17rem 0;
+
+  &__container {
+    gap: 0 13rem;
+  }
+
+  &__column {
+    &-first {
+      gap: 13.5rem 0;
+    }
+
+    &-second {
+      gap: 5.5rem 0;
+    }
+  }
+
+  &__content {
+    max-width: 37rem;
+  }
+
+  &__heading {
+    font-size: 4.2rem;
+    line-height: 5.2rem;
+    letter-spacing: -0.02rem;
+
+    color: $strongBrown;
+  }
+
+  &__subtitle {
+    margin-top: 1.6rem;
+    line-height: 2.8rem;
+
+    color: $brown;
+  }
+
+  &__all {
+    text-decoration: none;
+    max-width: 10.6rem;
+    display: inline-block;
+    margin-top: 2.6rem;
+    line-height: 2.8rem;
+    color: $orange;
+  }
+
+  &__img {
+    img {
+      width: 100%;
+    }
+
+    h3 {
+      margin-top: 1.8rem;
+      font-size: 2.2rem;
+      line-height: 3.2rem;
+      letter-spacing: -0.02rem;
+      color: $strongBrown;
+
+      transition: all 0.16s linear;
+    }
+
+    p {
+      margin-top: 1rem;
+      line-height: 2.8rem;
+      color: $brown;
+    }
+
+    &:hover h3 {
+      color: $orange;
+      font-weight: 700;
+    }
+  }
+}
