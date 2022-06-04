@@ -1,0 +1,78 @@
+.hero {
+  width: 100%;
+  height: 102.4rem;
+  background-color: $strongBrown;
+
+  &__container {
+    height: 100%;
+  }
+
+  &__content {
+    margin-top: 9.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    width: 57rem;
+    height: 14.4rem;
+  }
+
+  &__heading {
+    width: 100%;
+    height: 100%;
+    font-size: 6.2rem;
+    line-height: 7.2rem;
+    letter-spacing: -0.02rem;
+    color: $white;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 47rem;
+  }
+
+  &__subtitle {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: $gray;
+  }
+
+  &__btn {
+    text-decoration: none;
+    margin-top: 3.8rem;
+    display: block;
+    width: 17rem;
+    height: 6.4rem;
+    background-color: $orange;
+
+    padding: 1.7rem 3.4rem 1.7rem 3.3rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: $white;
+  }
+
+  &__img {
+    margin-top: 10rem;
+    position: relative;
+    width: 100%;
+    height: 56.2rem;
+
+    &-big {
+      max-width: 107rem;
+      height: 100%;
+      object-fit: cover;
+      margin-left: auto;
+    }
+
+    &-small {
+      position: absolute;
+      top: 28.2rem;
+      left: -5rem;
+
+      width: 27rem;
+      height: 21rem;
+    }
+  }
+}

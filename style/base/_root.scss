@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+  font-size: 62.5%;
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 117rem;
+  margin: 0 auto;
+  padding: 0 2rem 0 2rem;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
