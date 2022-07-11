@@ -1,6 +1,13 @@
 .navbar {
   padding-top: 3.8rem;
-  max-height: 3.4rem;
+
+  &__overlay {
+    display: none;
+  }
+
+  &__hamburger {
+    display: none;
+  }
 
   &__logo {
     width: 16.7rem;
